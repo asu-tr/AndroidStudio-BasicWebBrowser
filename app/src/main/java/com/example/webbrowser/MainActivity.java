@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (isNetworkAvailable() == true){
+                if (isNetworkAvailable()){
 
 
                     try {
